@@ -50,24 +50,30 @@ background: rgba(154, 142, 142, 0.619);
 letter-spacing: 1.5px;
 border-radius: 5px;
 }
-.quote-text{
+.quote{
+    display: flex;
     padding: 1.25rem 2rem;
     font-size: 1.85rem;
     text-align: center;
 }
-.quote-text::before{
-   content: '"';
-   font-size: 4rem;
-   position: relative;
-   top: 10px;
+.quote-text{
+    margin-left: 0.25rem;
+    color: #320f0f;
+    line-height: 40px;
 }
+.fa-quote-left{
+    color: #651d1d90;
+    font-size: 1.4rem;
+}
+
 .quote-text--author{
     font-style: italic;
     text-align: center;
     margin-bottom: 1rem;
     font-size: 1.85rem;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: rgb(49, 49, 49);
+    color: #5c2828;
+    
 }
 
 /* btns */
