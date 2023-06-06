@@ -1,0 +1,1 @@
+{"mappings":"AAAA,SAAS,UAAU,GAAG;IAClB,OAAO,MAAK;AAChB;AACA,SAAS;IACL,MAAM,IAAI;IACV,OAAO,UAAU;AACrB;AAEA","sources":["script.js"],"sourcesContent":["function substratc(num){\n    return num -2;\n}\nfunction add(){\n    const x = 5+4;\n    return substratc(x)\n}\n\nadd()"],"names":[],"version":3,"file":"index.672d4772.js.map","sourceRoot":"/__parcel_source_root/"}

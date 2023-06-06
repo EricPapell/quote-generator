@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background: url("background.fe40e636.jpg") center / cover;
+}
+
+button {
+  color: #f0f8ff;
+  cursor: pointer;
+  background: brown;
+  margin-bottom: 1rem;
+  padding: .25rem 1rem;
+  transition: all .15s linear;
+}
+
+button:hover {
+  background: #7a1f1f;
+  padding: .25rem 1rem;
+  transform: scale(1.2);
+}
+
+.quote-generator--box {
+  width: -moz-fit-content;
+  width: fit-content;
+  max-width: 80vw;
+  letter-spacing: 1.5px;
+  background: #9a8e8e9e;
+  border-radius: 5px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 2px 2px 10px #000;
+}
+
+.quote-text {
+  text-align: center;
+  padding: 1.25rem 2rem;
+  font-size: 1.85rem;
+}
+
+.quote-text:before {
+  content: "\"";
+  font-size: 4rem;
+  position: relative;
+  top: 10px;
+}
+
+.quote-text--author {
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: 1.45rem;
+  font-style: italic;
+}
+
+.btns {
+  justify-content: space-between;
+  display: flex;
+}
+
+.twiter-btn {
+  margin-left: 50px;
+}
+
+.quote-btn {
+  margin-right: 50px;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=index.3a01df49.css.map */
