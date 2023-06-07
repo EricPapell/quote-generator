@@ -51,6 +51,7 @@ letter-spacing: 1.5px;
 border-radius: 5px;
 }
 .quote{
+    position: relative;
     display: flex;
     padding: 1.25rem 2rem;
     font-size: 1.85rem;
@@ -60,6 +61,14 @@ border-radius: 5px;
     margin-left: 0.25rem;
     color: #320f0f;
     line-height: 40px;
+}
+.copy-btn{
+    align-self: flex-end;
+    padding: 3px 4px;
+}
+.copy-btn:hover{
+    align-self: flex-end;
+    padding: 3px 4px;
 }
 .fa-quote-left{
     color: #651d1d90;
@@ -94,4 +103,29 @@ border-radius: 5px;
 .quote-btn{
     margin-right: 50px;
     font-weight: bold;
+}
+
+/* spinner */
+.spinner-load{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border-top: 5px solid rgb(67, 24, 24);
+    animation: spiner 1.5s infinite linear;
+}
+@keyframes spiner {
+    0%{
+        
+    }
+    100%{
+        transform: rotatez(360deg);
+    }
+}
+
+/* extra */
+.long-quote{
+    font-size: 1.5rem;
+}
+.hidden{
+    display: none;
 }
